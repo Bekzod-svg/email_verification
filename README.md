@@ -28,7 +28,7 @@ This project is a Spring Boot application designed to register users and verify 
 - **GET** /register/verifyEmail: Verifies the user's email address based on the provided token.
 - **GET** /users: Retrieves a list of all registered users (requires authentication).
 ## Security
-- This application uses Spring Security to handle authentication and authorization, with BCryptPasswordEncoder for password encoding. The security configuration is defined in UserRegistrationSecurityConfig.java.
+This application uses Spring Security to handle authentication and authorization, with BCryptPasswordEncoder for password encoding. The security configuration is defined in UserRegistrationSecurityConfig.java.
 
 ## Email Service
 Emails are sent using the JavaMailSender interface, configured in the RegistrationCompleteEventListener. 
