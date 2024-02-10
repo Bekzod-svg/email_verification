@@ -13,7 +13,6 @@ This project is a Spring Boot application designed to register users and verify 
 - Java 21
 - Maven
 - MySQL
-- 
 ## Technologies Used
 - **USpring Boot:** For rapid application development
 - **Spring Security:** For authentication and security
