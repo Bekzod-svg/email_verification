@@ -25,6 +25,10 @@ This project is a Spring Boot application designed to register users and verify 
 
 ## Endpoints
 - **POST** /register: Registers a new user and triggers an email verification process.
+- <img width="558" alt="Screen Shot 2024-02-10 at 18 58 00" src="https://github.com/Bekzod-svg/email_verification/assets/57885639/36d8aa87-b688-4a4a-a599-5094dd3ee81a">
+- Response
+<img width="712" alt="Screen Shot 2024-02-10 at 18 58 30" src="https://github.com/Bekzod-svg/email_verification/assets/57885639/097a1a59-b417-461c-869e-20ae643e9db3">
+
 - **GET** /register/verifyEmail: Verifies the user's email address based on the provided token.
 - **GET** /users: Retrieves a list of all registered users (requires authentication).
 ## Security
