@@ -14,14 +14,14 @@ This project is a Spring Boot application designed to register users and verify 
 - Maven
 - MySQL
 ## Technologies Used
-- **USpring Boot:** For rapid application development
-- **Spring Security:** For authentication and security
-- **Spring Data JPA:** For database operations
-- **Spring Mail:** For email services
-- **MySQL:** As the database
-- **Hibernate:** For ORM
-- **Lombok:** For reducing boilerplate code
-- **Java Mail API:** For email operations
+- **Spring Boot:** 
+- **Spring Security:** 
+- **Spring Data JPA:** 
+- **Spring Mail:** 
+- **MySQL:** 
+- **Hibernate:**
+- **Lombok:**
+- **Java Mail API:**
 
 ## Endpoints
 - **POST** /register: Registers a new user and triggers an email verification process.
